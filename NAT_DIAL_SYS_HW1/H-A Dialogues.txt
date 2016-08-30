@@ -687,7 +687,8 @@ H:CALEB
 U:Yeah. It would be fun. 
 A:AVA 
 U:Are you attracted to me? 
-H:CALEB What? 
+H:CALEB
+U:What? 
 A:AVA 
 U:Are you attracted to me? You give indications that you are. 
 H:CALEB 
@@ -868,7 +869,8 @@ A:AVA
 U:What? How? 
 H:CALEB 
 U:I get Nathan blind drunk. Then I take his keycard, and reprogram all the security protocols in this place. When he wakes, he’s locked inside, and we’ve walked out of here. I only need you to do one thing. At ten o’clock tonight, trigger a power failure. Can you do that? 
-A:AVA Yes. 
+A:AVA
+U:Yes. 
 H:CALEB 
 U:How long does your battery charge last? 
 A:AVA 

@@ -6,6 +6,8 @@
     <script src="jquery_min.js"></script>
     <!-- important to load JS that depends on jQuery after loading jQuery-->
     <script src="page.js"></script>
+    <script src="analyses.js">
+    </script>
 </head>
 <body>
     <!-- this is a file input -->
@@ -14,6 +16,7 @@
     <input type="button" value="run again" id="do-again-button" /><br>
     <h3>Contents of the file:</h3>
     <!-- this is where the analysis will go -->
+    <pre id="ana"><!-- an HTML function will overwrite this comment  </pre>
     <pre id="file-content"><!-- the HTML function will overwrite this comment --></pre>
 </body>
 </html>

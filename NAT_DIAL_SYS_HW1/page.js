@@ -14,7 +14,21 @@ function useFileContents(contents) {
     //do anything with the file contents
     
     //finally, put something into the output element
-    $('#file-content').html(contents);
+    
+    
+    var lines = contents.split('\n');
+    var str = '';
+    for(var line = 0; line < lines.length; line++){
+       if(lines[line].charAt(1) != ':' || lines[line].charAt(0) == '#')
+          continue;
+        if(lines[line].charAt(0)=='H') {
+           if(line != lines.length-1){ analyzeH(lines[++line].substr(2));}
+        } else if(lines[line].charAt(0)=='A') {
+           if(line != lines.length-1){ analyzeA(lines[++line].substr(2));}
+        }
+    }
+    
+    $('#ana').html(buildReport());
 }
 
 //this is the function that will run when the document is
