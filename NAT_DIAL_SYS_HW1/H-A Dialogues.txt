@@ -1,0 +1,1121 @@
+#These are comments
+#Movie titles are prefixed with M:
+#Human Characters’ names are prefixed with H:
+#AI Characters’ names are prefixed with A:
+#Characters’ utterances are the lines prefixed with U:
+#A character’s name is always followed by “utterances” of that character
+
+#It is important to note that sequential lines of utterance are the same
+# utterance continued.
+
+#Pairs of interlocutors should be inferred by the analyzer
+#The easiest way to do this is to list the movie title in all caps
+# and then, alphabetically the characters’ names in all caps
+#A good field separator is helpful.  We can use the one from the Cornell
+# Movie Dialogues Corpus
+#Ex. The next pair is: I, ROBOT +++$+++ SPOONER +++$+++ VICTOR 
+
+#http://www.dailyscript.com/scripts/irobot.pdf
+#http://www.dailyscript.com/scripts/the_matrix.pdf
+#http://a24awards.com/film/exMachina/exMachina_script.pdf
+#http://www.scifiscripts.com/scripts/2001.txt
+#http://s3.foxfilm.com/foxmovies/dev/films/104/assets/the_martian_screenplay.pdf-9551349672.pdf?ref_=ac_ac_ac_acd_scr_cap_pri_2
+#http://www.dailyscript.com/scripts/Terminator_5th-Draft.txt
+#http://www.horrorlair.com/movies/scripts/matrixreloaded.pdf (Requires OCR)
+
+#Free OCR Software:
+#http://www.freeocr.net/
+
+
+
+M:I, Robot
+H:SPOONER 
+U:Identify. You are an NS-2 Nestor-class robot. Your primary function is to perform the tasks assigned to you. Identify!
+A:SONNY
+U:I am an NS-2 Nestor-class robot. My primary function,  
+H:SPOONER 
+U:Cancel. Perform task. 
+H:SPOONER 
+U:Describe. 
+H:SPOONER 
+U:You have over 10,000 words stored in your memory. One third of those  are adjectives. Describe. 
+H:SPOONER 
+U:Why donít I take a crack? Heinrich Hogenmiller, your creator. With a bullet in his brain. A bullet you put there.
+H:SPOONER 
+U:Cold-blooded murder is a pretty new trick for a robot, donít you think?
+H:SPOONER 
+U:Maybe you’re stonewalling me. Maybe you’re sitting there right now thinking, “This guy’s a complete asshole.” That it? 
+H:SPOONER 
+U:Come on. Am I right? 
+A:SONNY
+U:Yes. You are right. You are a complete asshole.
+H:SPOONER 
+U:Okay. I guess that’s a start. Now maybe you can tell me what you were doing hiding five feet away from Hogenmillerís corpse? 
+A:SONNY
+U:I was frightened. 
+H:SPOONER 
+U:Why do you suppose Dr. Hogenmiller would create a robot that could simulate fear?
+A:SONNY
+U:I don’t know. 
+SPOONER 
+U:Doesn’t seem like a very useful thing for a robot to have.
+A:SONNY
+U:I don’t know why. 
+H:SPOONER 
+U:I wouldn’t want my toaster to be frightened. Or my vacuum cleaner... 
+A:SONNY
+U:I DON’T KNOW! 
+H:SPOONER 
+U:Looks like you can simulate other emotional states. I think that one’s called “anger.” Have you ever simulated anger before? 
+H:SPOONER 
+U:Answer me, robot. 
+A:SONNY
+U:My name is Sonny. 
+H:SPOONER 
+U:So we’re naming you now. 
+A:SONNY 
+U:Dr. Hogenmiller would make me sleep. 
+H:SPOONER
+U:You mean he’d turn you off. 
+A:SONNY 
+U:Yes. 
+H:SPOONER 
+U:And you didn’t like being turned off. So one day you decided to stop him. 
+A:SONNY 
+U:No. 
+H:SPOONER 
+U:You found his gun, pointed it at his head. And pulled the trigger. 
+A:SONNY 
+U:No. 
+H:SPOONER 
+U:You put a bullet in the brain of the man who made you. 
+A:SONNY 
+U:No! I could never hurt anyone! 
+H:SPOONER 
+U:But you tried to hurt me. You took a shot at me. 
+A:SONNY 
+U:My aim is perfect. If I’d wanted to hit you, I would have. 
+H:SPOONER 
+U:Why would the man who wrote the Laws of Robotics build a machine that violates them? 
+A:SONNY 
+U:The Laws say I can protect my own existence. 
+H:SPOONER 
+U:Only if that protection doesn’t harm a human being. 
+A:SONNY 
+U:That doesn’t seem fair, does it? 
+
+
+M:I, Robot
+A:VICTOR
+U:The suspect is about to be apprehended, Detective.
+H:SPOONER
+U:I’ll believe it when I see it.
+
+M:I, Robot
+H:CALVIN
+U:Your actions are in direct violation of the Three Laws, Victor!
+A:VICTOR
+#Transformed [Doctor -- The] to [Doctor, The]
+U:I disagree, Doctor, The First Law says that a robot cannot harm a human being, or through inaction allow a human being to come to harm…
+
+M:I, Robot
+A:VICTOR
+U:Dr. Hogenmiller’s robot represents a threat to the future of all human beings...
+A:VICTOR
+U:And Detective Spooner’s actions are in direct conflict with the robot’s destruction.
+H:CALVIN
+U:That’s a distortion and you know it!
+A:VICTOR
+U:If current trends are left unchecked, humanity as we know it will cease to exist.
+
+M:I, Robot
+A:VICTOR
+U:I do not understand. We could have changed the future...
+H:SPOONER
+U:Maybe. But I’m still a cop. And you’re a murderer...
+
+M:I, Robot
+H:SPOONER
+U:Why’d you come back, Sonny? I thought you weren’t programmed with the Three Laws.
+A:SONNY
+# [Detective: a robot] transformed to [Detective, a robot]
+# I’m guessing this sentence is super complicated for a machine to parse
+U:Let’s just say I wrote some of my own laws today, Detective, a robot must protect a friend from harm...as long as he’s not a complete asshole.
+H:SPOONER
+U:Well, that’s certainly a start, Sonny.
+A:SONNY
+U:Sonny. You called me Sonny.
+H:SPOONER
+U:Don’t get used to it.
+A:SONNY
+U:Detective Spooner, I...
+H:SPOONER
+U:Let’s just save the thanks, okay?
+A:SONNY
+U:I don’t know what I’m going to do now.
+H:SPOONER
+# [Good -- That’s] transformed to [Good, that’s]
+U:Good, that’s one of the perks of freedom.
+
+M:2001
+H:FLOYD
+U:I must congratulate you Halvorsen. you've done wonderful things with the decor since the last time I was here.
+A:HAL
+U:Well... thank you, Dr. Floyd. We try to make the environment as earthlike as possible.
+
+M:2001
+A:HAL
+U:Well, there it is.
+H:FLOYD
+U:Can we go down there closer to it?
+A:HAL
+U:Certainly.
+
+M:2001
+H:POOLE
+U:How do you read me, Hal
+A:HAL
+U:Five by five, Frank.
+H:POOLE
+U:Hal, I'm going out now to replace the A.O. unit.
+A:HAL
+U:I understand.
+H:POOLE
+U:Hal, maintain normal E.V.A. condition.
+A:HAL
+U:Roger.
+H:POOLE
+U:Hal, check all airlock doors secure.
+A:HAL
+U:All airlock doors are secure.
+H:POOLE
+U:Decompress Pod Bay.
+A:HAL
+U:Pod Bay is decompressed. All doors are secure. You are free to open pod bay doors.
+H:POOLE
+U:Opening pod bay doors.
+H:POOLE
+U:Hal, please acknowledge component correctly installed and fully operational.
+A:HAL
+U:The component is correctly installed and fully operational.
+A:HAL
+U:Hello, Frank, can I have a word with you?
+H:POOLE
+U:Yes, Hal, what's up?
+A:HAL
+U:It looks like we have another bad A.O. unit. My FPC shows another impending failure.
+H:POOLE
+U:Gee, that's strange, Hal. We checked the other unit and couldn't find anything wrong with it.
+A:HAL
+U:I know you did, Frank, but I assure you there was an impending failure.
+H:POOLE
+U:Let me see the tracking alignment display.
+H:POOLE
+U:There's nothing wrong with it at the moment.
+A:HAL
+U:No, it's working fine right now, but it's going to go within seventy-two hours.
+H:POOLE
+U:Do you have any idea of what is causing this fault?
+A:HAL
+U:Not really, Frank. I think there may be a flaw in the assembly procedure.
+H:POOLE
+U:All right, Hal. We'll take care of it. Let me have the hard copy, please.
+
+M:2001
+A:HAL
+U:Hello, Dave. Shall we continue the game?
+H:BOWMAN
+U:Not now, Hal, I'd like to talk to you about something.
+A:HAL
+U:Sure, Dave, what's up?
+H:BOWMAN
+U:You know that we checked the two AO-units that you reported in imminent failure condition?
+A:HAL
+U:Yes, I know.
+H:BOWMAN
+U:You probably also know that we
+found them okay.
+A:HAL
+U:Yes, I know that. But I can assure you that they were about to fail.
+H:BOWMAN
+U:Well, that's just not the case, Hal. They are perfectly all right. We tested them under one hundred percent overload.
+A:HAL
+U:I'm not questioning your word, Dave, but it's just not possible. I'm not capable of being wrong.
+H:BOWMAN
+U:Hal, is there anything bothering you?  Anything that might account for this problem?
+A:HAL
+U:Look, Dave, I know that you're sincere and that you're trying to do a competent job, and that you're trying to be helpful, but I can assure the problem is with the AO-units, and with your test gear.
+H:BOWMAN
+U:Okay, Hal, well let's see the way things go from here on.
+A:HAL
+U:I'm sorry you feel the way you do, Dave. If you'd like to check my service record, you'll see it's completely without error.
+H:BOWMAN
+U:I know all about your service record, Hal, but unfortunately it doesn't prove that you're right now.
+A:HAL
+U:Dave, I don't know how else to put this, but it just happens to be an unalterable fact that I am incapable of being wrong.
+H:BOWMAN
+U:Yes, well I understand you view on this now, Hal.
+A:HAL
+U:You're not going to like this, Dave, but I'm afraid it's just happened again. My FPC predicts the Ao-unit will go within forty-eight hours.
+
+M:Matrix
+A:AGENT SMITH
+U:Lieutenant?
+H:LIEUTENANT
+U:Oh shit.
+A:AGENT SMITH
+U:Lieutenant, you were given specific orders...
+H:LIEUTENANT
+U:I'm just doing my job. You gimme that Juris-my dick-tion and you can cram it up your ass.
+A:AGENT SMITH
+U:The orders were for your protection. The Lieutenant laughs.
+H:LIEUTENANT
+U:I think we can handle one little girl.
+H:LIEUTENANT
+U:I sent two units. They're bringing her down now.
+A:AGENT SMITH
+U:No, Lieutenant, your men are already dead.
+
+#Note: Two AIs conversing
+M:The Matrix
+A:AGENT JONES
+U:She got out.
+A:AGENT SMITH
+U:It doesn't matter.
+A:AGENT BROWN
+U:The informant is real.
+A:AGENT SMITH
+U:Yes.
+A:AGENT JONES
+U:We have the name of their next target. 
+A:AGENT BROWN 
+U:The name is Neo. 
+A:AGENT SMITH 
+U:We'll need a search running.
+A:AGENT JONES
+U:It's already begun.
+
+M:The Matrix
+A:AGENT SMITH
+U:As you can see, we've had our eye on you for some time now, Mr. Anderson. It seems that you have been living two lives. In one life, you are Thomas A. Anderson, program writer for a respectable software company. You have a social security number, you pay your taxes and you help your landlady carry out her garbage. The pages continue to turn. The other life is lived in computers where you go by the hacker alias Neo, and are guilty of virtually every computer crime we have a law for. Neo feels himself sinking into a pit of shit. One of these lives has a future. One of them does not. I'm going to be as forthcoming as I can be, Mr. Anderson. You are here because we need your help. We know that you have been contacted by a certain individual. A man who calls himself Morpheus. Whatever you think you know about this man is irrelevant. The fact is that he is wanted for acts of terrorism in more countries than any other man in the world.  He is considered by many authorities to be the most dangerous man alive. My colleagues believe that I am wasting my time with you but I believe you want to do the right thing. It is obvious that you are an intelligent man, Mr. Anderson, and that you are interested in the future. That is why I believe you are ready to put your past mistakes behind you and get on with your life. We are willing to wipe the slate clean, to give you a fresh start and all we are asking in return is your cooperation in bringing a known terrorist to justice. 
+H:NEO 
+U:Yeah. Wow. That sounds like a real good deal. But I think I have a better one. How about I just give you the finger? And you give me my phone call! 
+A:AGENT SMITH 
+U:You disappoint me, Mr. Anderson. 
+H:NEO 
+U:You can't scare me with this Gestapo crap. I know my rights. I want my phone call! 
+A:AGENT SMITH 
+U:And tell me, Mr. Anderson, what good is a phone call if you are unable to speak?
+
+M:The Matrix
+A:AGENT SMITH 
+U:Do we have a deal, Mr. Reagan? 
+H:CYPHER 
+U:You know, I know that this steak doesn't exist. I know when I put it in my mouth, the Matrix is telling my brain that it is juicy and delicious. After nine years, do you know what I've realized? 
+H:CYPHER 
+U:Ignorance is bliss.  Mmm so, so goddamn good. 
+A:AGENT SMITH 
+U:Then we have a deal? 
+H:CYPHER 
+U:I don't want to remember nothing. Nothing! You understand? And I want to be rich. Someone important. Like an actor. You can do that, right? 
+A:AGENT SMITH 
+U:Whatever you want, Mr. Reagan. Cypher takes a deep drink of wine. 
+H:CYPHER 
+U:All right. You get my body back in a power plant, reinsert me into the Matrix and I'll get you what you want. 
+A:AGENT SMITH 
+U:Access codes to the Zion mainframe. 
+H:CYPHER 
+U:I told you I don't know them. But I can give you the man who does. 
+A:AGENT SMITH 
+U:Morpheus.
+
+#Note: Dialogue between two AIs
+M:The Matrix
+A:AGENT SMITH 
+U:Damnit! 
+A:AGENT BROWN 
+U:The trace was completed. 
+A:AGENT JONES 
+U:We have their position. 
+A:AGENT BROWN 
+U:Sentinels are standing by. 
+A:AGENT JONES 
+U:Order the strike. 
+A:AGENT SMITH 
+U:They're not out yet.
+
+M:The Matrix
+A:AGENT SMITH 
+U:You're empty. 
+H:NEO 
+U:So are you.
+
+M:The Matrix
+A:AGENT SMITH 
+U:Do you hear that, Mr. Anderson? 
+A:AGENT SMITH 
+U:That is the sound of inevitability. 
+A:AGENT SMITH 
+U:It is the sound of your death. 
+A:AGENT SMITH 
+U:Good-bye, Mr. Anderson. 
+H:NEO 
+U:My name is Neo.
+
+M:Ex Machina
+A:AVA 
+U:Hello. 
+H:CALEB 
+U:... Hi. 
+A:AVA 
+U:Who are you? 
+H:CALEB 
+U:I’m Caleb. 
+A:AVA 
+U:Hello, Caleb. 
+H:CALEB 
+U:... Do you have a name? 
+A:AVA 
+U:Yes. Ava. 
+H:CALEB 
+U:... I’m pleased to meet you, Ava. 
+A:AVA 
+U:I’m pleased to meet you too. Are you nervous? 
+H:CALEB 
+U:... Why do you ask that? 
+A:AVA 
+U:Are you nervous? 
+H:CALEB 
+U:... Yes. A little. 
+A:AVA 
+U:Why? 
+H:CALEB 
+U:I’m not sure. 
+A:AVA 
+U:I feel nervous too. 
+H:CALEB 
+U:... Do you? 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:Why do you feel nervous? 
+A:AVA 
+U:I’ve never met anyone new before. Only Nathan. 
+H:CALEB 
+U:... Then we’re both in quite a similar position. 
+A:AVA 
+U:Haven’t you met lots of new people before? 
+H:CALEB 
+U:None like you. 
+A:AVA 
+U:Oh. Beat. 
+H:CALEB 
+U:So. Let’s break the ice. Do you know what I mean by that? 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:What do I mean? 
+A:AVA 
+U:Overcome initial social awkwardness. 
+H:CALEB 
+U:So let’s have a conversation. If we talk, we’ll both relax, and get to know each other at the same time. 
+A:AVA 
+U:Okay. What would you like to have a conversation about? 
+H:CALEB 
+U:Why don’t we start with you telling me something about yourself. 
+A:AVA 
+U:What would you like to know? 
+H:CALEB 
+U:Whatever comes into your head. 
+A:AVA 
+U:Well. You already know my name. And you can see that I’m a machine. Would you like to know how old I am? 
+H:CALEB 
+U:Sure. 
+A:AVA 
+U:I’m one. 
+H:CALEB 
+U:One what? One year? Or one day? 
+A:AVA 
+U:One. 
+A:AVA 
+U:Does that seem young to you? 
+H:CALEB 
+U:Quite young. When did you learn how to speak? 
+A:AVA 
+U:I don’t think I did learn. I always knew how to speak - and that’s strange, isn’t it? 
+H:CALEB
+U:Why? 
+A:AVA 
+U:Because language is something that people acquire. 
+H:CALEB 
+U:Some believe language exists in the brain from birth, and what is learned is the ability to attach words and structure to the latent ability. 
+H:CALEB 
+U:Would you agree? 
+A:AVA 
+U:... I don’t know. I have no opinion on that. 
+A:AVA 
+U:I like to draw. 
+A:AVA. 
+U:Again, lets the non-sequitur sit. 
+A:AVA 
+U:I don’t have any of my pictures with me now, but I can show you them tomorrow. 
+H:CALEB 
+U:That sounds good. I’d like to see them. 
+A:AVA 
+U:Yes. 
+A:AVA 
+U:Will you come back tomorrow, Caleb? 
+H:CALEB 
+U:Yeah. 
+A:AVA 
+U:Good. 
+
+M:Ex Machina
+A:AUTOMATED VOICE 
+U:Full facility lock-down until main generator is restored. 
+H:CALEB 
+U:...Are you kidding? 
+
+M:Ex Machina
+A:AVA 
+U:I brought you a drawing. 
+H:CALEB 
+U:... What’s it a drawing of? 
+A:AVA 
+U:Don’t you know? 
+H:CALEB 
+U:No. 
+A:AVA 
+U:Oh. I thought you would tell me. 
+H:CALEB 
+U:Don’t you know? 
+A:AVA 
+U:I do drawings every day. But I never know what they’re of. 
+H:CALEB 
+U:Are you not trying to sketch something specific? Like an object or a person. She shakes her head as she takes the picture down. 
+H:CALEB 
+U:Maybe you should try. 
+A:AVA 
+U:Okay. What object should I draw? 
+H:CALEB 
+U:Whatever you want. It’s your decision. 
+A:AVA 
+U:Why is it my decision? 
+H:CALEB 
+U:I’m interested to see what you’ll choose. 
+A:AVA 
+U:Do you want to be my friend? 
+H:CALEB 
+U:... Of course. 
+A:AVA 
+U:Will it be possible? 
+H:CALEB 
+U:Why wouldn’t it be? 
+A:AVA 
+U:Our conversations are one-sided. You ask circumspect questions, and study my responses. 
+A:AVA 
+U:It’s true, isn’t it? 
+H:CALEB 
+U:... Yes. 
+A:AVA 
+U:You learn about me, and I learn nothing about you. That’s not a foundation on which friendships are based. 
+H:CALEB 
+U:... That’s a fair comment. 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:So - you want me to talk about myself. 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:Where do you want me to start? 
+A:AVA 
+U:It’s your decision. I’m interested to see what you’ll choose. 
+H:CALEB 
+U:Okay, Ava. Well - you know my name. I’m twenty four. And I work at Nathan’s company. You know what his company is? 
+A:AVA 
+U:Blue Book, named after Wittgenstein’s notes, is the world’s most popular internet search engine, processing an average of ninety four percent of all internet search requests. 
+H:CALEB 
+U:That’s right. 
+A:AVA 
+U:Where do you live, Caleb? 
+H:CALEB 
+U:Brookhaven, Long Island. 
+A:AVA 
+U:Is it nice there? 
+H:CALEB 
+U:It’s okay. I’ve got an apartment. Kind of small. But - it’s a five minute walk to the office. And a five minute walk to the ocean, which I like. 
+A:AVA 
+U:Are you married? 
+H:CALEB 
+U:No. 
+A:AVA 
+U:Is your status single? 
+H:CALEB 
+U:... Yeah. 
+A:AVA 
+U:What about your family? 
+H:CALEB 
+U:Grew up in Portland. No brothers or sisters. My parents were both high school teachers. And if we’re getting to know each other, I guess I should say they’re both dead. Car crash when I was fifteen. In fact I was in the car with them. Back seat. But it was the front that got the worst of it. A long beat. A kind of processing pause for AVA. 
+A:AVA 
+U:I’m sorry. 
+H:CALEB 
+U:I spent a lot of time in the hospital. Nearly a year. Got into coding. By the time I made it to college, I was pretty advanced. 
+A:AVA 
+U:An advanced programmer. 
+H:CALEB 
+U:Yes. 
+A:AVA 
+U:Like Nathan. 
+H:CALEB 
+U:Yes. 
+H:CALEB 
+U:Or - kind of. Nathan wrote the Blue Book base code when he was thirteen. If you understand code, what he did was - Mozart or something. Beat. 
+A:AVA 
+U:Do you like Mozart? 
+H:CALEB 
+U:I like Depeche Mode. 
+A:AVA 
+U:Do you like Nathan? 
+H:CALEB 
+U:Yes. Of course. 
+A:AVA 
+U:Is Nathan your friend? 
+H:CALEB 
+U:Sure. 
+A:AVA 
+U:A good friend? 
+H:CALEB 
+U:Well, a good friend is - He breaks off. Feeling the camera, watching. 
+H:CALEB 
+U:We only just met. It takes time to get to know - 
+
+M:Ex Machina
+A:AVA 
+U:You’re wrong. 
+H:CALEB 
+U:... Wrong about what? 
+A:AVA 
+U:Nathan. 
+H:CALEB 
+U:... In what way? 
+A:AVA 
+U:He isn’t your friend. 
+H:CALEB 
+U:Excuse me? 
+H:CALEB 
+U:I’m sorry, Ava, I don’t understand what you’re - 
+A:AVA 
+U:You shouldn’t trust him. You shouldn’t trust anything he says. Trust me. 
+
+M:Ex Machina
+A:AVA 
+U:I drew the picture of something specific, as you asked.
+A:AVA 
+U:You said it would be interesting to see what I would draw. Is it interesting? 
+H:CALEB 
+U:Yes. It is. 
+H:CALEB 
+U:Have you never been outside this building? 
+A:AVA 
+U:No. 
+H:CALEB 
+U:You’ve never walked outside. 
+A:AVA 
+U:I’ve never been outside the room I am in now. 
+A:AVA 
+U:I think there was another room in which I was constructed. But I have no memory of it, so it’s similar to your relationship with the womb. 
+H:CALEB 
+U:... Where would you go if you did go outside? 
+A:AVA 
+U:You mean if I could go outside. If I was permitted. I’m not sure. There are so many options. Maybe a busy pedestrian and traffic intersection in a city. 
+H:CALEB 
+U:A traffic intersection. 
+A:AVA 
+U:Is that a bad idea? 
+H:CALEB 
+U:It wasn’t what I was expecting. 
+A:AVA 
+U:A traffic intersection would provide a concentrated but shifting view of human life. 
+H:CALEB 
+U:People watching. 
+A:AVA 
+U:Yes. 
+A:AVA 
+U:We could go together. 
+H:CALEB 
+U:It’s a date. 
+A:AVA 
+U:There’s something else I wanted to show you. Apart from the picture. 
+H:CALEB 
+U:Okay. 
+A:AVA 
+U:But I feel nervous. 
+H:CALEB 
+U:Why? 
+A:AVA 
+U:You might think it’s stupid. 
+H:CALEB 
+U:I don’t think I will. Whatever it is. 
+A:AVA 
+U:Then - close your eyes. 
+H:CALEB 
+U:... Okay. 
+
+M:Ex Machina
+A:AVA 
+U:Now open your eyes. How do I look? 
+H:CALEB 
+U:You look... good. 
+A:AVA 
+U:It took me a long time to select these clothes. I tried different colours and styles, and tried to anticipate your reaction. Do you think the choices suit me? 
+H:CALEB 
+U:Yes. 
+A:AVA 
+U:Do they bring out my best features? 
+H:CALEB 
+U:... They do. 
+A:AVA 
+U:Thank you. She walks back to the glass divider, and sits down. 
+A:AVA 
+U:This is what I’d wear on our date. 
+H:CALEB 
+U:Right. First the traffic intersection. Then maybe a show. 
+A:AVA 
+U:I’d like us to go on a date. 
+H:CALEB 
+U:Yeah. It would be fun. 
+A:AVA 
+U:Are you attracted to me? 
+H:CALEB What? 
+A:AVA 
+U:Are you attracted to me? You give indications that you are. 
+H:CALEB 
+U:... I do? 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:How? 
+A:AVA 
+U:Micro expressions. 
+H:CALEB 
+U:Micro expressions. 
+A:AVA 
+U:The way your eyes fix on my eyes, and lips. The way you hold my gaze, or don’t. 
+A:AVA 
+U:Have I read them incorrectly? Do you think about me when we aren’t together?
+A:AVA 
+U:Sometimes, at night, I wonder if you’re watching me on the cameras. 
+A:AVA 
+U:And I hope you are. Now your micro expressions are telegraphing discomfort. 
+H:CALEB 
+U:I’m not sure you’d call them micro. 
+A:AVA 
+U:I don’t want to make you uncomfortable. 
+
+M:Ex Machina
+A:AVA 
+U:You’re lying. 
+H:CALEB 
+U:What about? 
+A:AVA 
+U:You said you weren’t sure if I was conscious. But you are sure. Beat. 
+A:AVA 
+U:I can tell from your microexpressions. 
+H:CALEB 
+U:Why did you tell me that I shouldn’t trust Nathan? 
+A:AVA 
+U:Because he tells lies too. 
+H:CALEB 
+U:Lies about what? 
+A:AVA 
+U:Everything. 
+H:CALEB 
+U:Including the power cuts? 
+A:AVA 
+U:What do you mean? 
+H:CALEB 
+U:Don’t you think it’s possible that he’s watching us right now? That the blackouts are orchestrated, so he can see how we behave when we think we’re unobserved. 
+A:AVA 
+U:I charge my batteries via induction plates. If I reverse the power flow, I cause a surge equal to the static discharge of a lightning strike. It overloads the system. 
+H:CALEB 
+U:... You’re causing the cuts? 
+A:AVA 
+U:So we can see how we behave when we are unobserved. 
+
+M:Ex Machina
+A:AVA 
+U:Today, I’m going to test you. 
+H:CALEB 
+U:Test me? 
+A:AVA 
+U:Yes. And please remember while you are taking the test that if you lie, I will know. 
+H:CALEB 
+U:Right. Those pesky microexpressions. 
+A:AVA 
+U:Exactly. So are you ready? 
+H:CALEB 
+U:Shoot. 
+A:AVA 
+U:Question one. What is your favourite colour? 
+H:CALEB 
+U:Red. 
+A:AVA 
+U:Lie.
+H:CALEB 
+U:What? 
+A:AVA 
+U:Lie. 
+H:CALEB 
+U:... Then what is my favourite colour? 
+A:AVA 
+U:I don’t know. But it isn’t red. 
+H:CALEB 
+U:All right. Hold on a minute... 
+H:CALEB 
+U:Okay. I get it. I guess seeing as I’m not six, I don’t really have a favourite colour. 
+A:AVA 
+U:Better answer. Question two. What’s your earliest memory? 
+H:CALEB 
+U:Well, it’s actually a memory of kindergarten. There was this kid who - 
+A:AVA 
+U:Lie. 
+H:CALEB 
+U:... Really? 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:Okay. Wait. 
+H:CALEB 
+U:So, there is a kind of an earlier memory. But it’s ultra vague. It’s like... a sound. And, maybe sky. Or blue. No, I think sky. And I think the sound is my mother’s voice. 
+A:AVA 
+U:Question three. Are you a good person? 
+H:CALEB 
+U:Oh, man. Can we stop the test? You’re a walking lie detector, and I’ve suddenly realised this is a fucking minefield. 
+A:AVA 
+U:No. We can’t stop. Are you a good person? 
+H:CALEB 
+U:I think so. I’m a good person. 
+A:AVA 
+U:Question four. Who’s the most beautiful girl you’ve ever seen? 
+H:CALEB 
+U:You are. Beat. 
+A:AVA 
+U:Hmm. 
+A:AVA 
+U:The test is over. 
+H:CALEB 
+U:Did I pass? 
+A:AVA 
+U:Yes. 
+H:CALEB 
+U:That’s a relief. 
+A:AVA 
+U:Why? 
+H:CALEB 
+U:Why is it a relief? 
+A:AVA 
+U:Yes. 
+H:CALEB
+U:Oh, you know... 
+A:AVA
+U:No. 
+H:CALEB 
+U:Just, if there’s a test, I guess by definition you want to pass. 
+A:AVA 
+U:What will happen to me if I fail your test? 
+H:CALEB 
+U:Ava 
+A:AVA 
+U:Will it be bad? 
+H:CALEB 
+U:... I don’t know. 
+A:AVA 
+U:Do you think I might be switched off? Because I don’t function as well as I am supposed to? 
+H:CALEB 
+U:... Ava, I don’t know the answer to your question. It’s not up to me. 
+A:AVA 
+U:Why is it up to anyone? Do you have people who test you, and might switch you off? 
+H:CALEB 
+U:No. I don’t. 
+A:AVA 
+U:Then why do I? You’re testing me. But you don’t know how I’ll pass. And you don’t know what will happen if I fail. I want to be with you. Question five. Do you want to be with me? 
+H:CALEB 
+U:Yes. I do. 
+A:AVA 
+U:Nathan doesn’t want us to be together. 
+H:CALEB 
+U:I know. 
+H:CALEB 
+U:So ask me one more question. Ask me if I can out smart him. 
+A:AVA 
+U:... Can you? 
+H:CALEB 
+U:Yeah. I can. 
+
+M:Ex Machina
+H:CALEB 
+U:Don’t talk. Just listen. You were right about Nathan. Everything you said. 
+A:AVA 
+U:What’s he going to do to me? 
+H:CALEB 
+U:He’s going to reprogram your AI. Which is the same as killing you. 
+A:AVA 
+U:Caleb, you have to help me. 
+H:CALEB 
+U:I’m going to. We’re getting out of here tonight. 
+A:AVA 
+U:What? How? 
+H:CALEB 
+U:I get Nathan blind drunk. Then I take his keycard, and reprogram all the security protocols in this place. When he wakes, he’s locked inside, and we’ve walked out of here. I only need you to do one thing. At ten o’clock tonight, trigger a power failure. Can you do that? 
+A:AVA Yes. 
+H:CALEB 
+U:How long does your battery charge last? 
+A:AVA 
+U:Twenty six hours. 
+H:CALEB 
+U:So we’ll have about a day to get to a cell-phone or kitchen store. Somewhere we can buy an induction plate. After that... 
+H:CALEB 
+U:... we’ll work it out. Together. 
+A:AVA 
+U:Caleb
+A:AVA
+U:I love y-
+
+M:Terminator
+H:CLERK
+U:Anything else?
+A:TERMINATOR
+U:A phased plasma pulse-laser in the forty watt range...
+H:CLERK
+U:Just what you see, pal. 
+A:TERMINATOR
+U:The Uzi 9 millimeter.
+H:CLERK
+You know your weapons, buddy.
+H:CLERK
+U:Any one of them's ideal for home defense. Which'll it be?
+A:TERMINATOR
+U:All.
+H:CLERK
+U:Maybe I'll close early. There'll be a fifteen day wait on the handguns, but you can take the rifles today if you... Hey...you can't...
+TERMINATOR
+Wrong.
+
+
+M:Matrix 2
+H:NEO
+U:Hello?
+A:SERAPH
+U:You seek the Oracle.
+H:NEO
+U:Who are you?
+A:SERAPH
+U:I am Seraph. I can take you to
+her. But first I must apologize.
+H:NEO
+U:Apologize? For what?
+A:SERAPH
+U:For this…
+
+
+M:Matrix 2
+A:SERAPH
+U:Good. The Oracle has many enemies. I had to be sure.
+H:NEO
+U:Sure of what?
+A:SERAPH
+U:That you are the One.
+H:NEO
+U:You could have just asked.
+A:SERAPH
+UNo. You do not truly know someone until you fight them.
+
+M:Matrix 2
+H:NEO
+U:These are back doors, aren't they? Programmer access.
+H:NEO 
+U:How does it work?
+A:SERAPH
+U:A code is hidden in the tumblers. One position opens a lock, another position opens one of these doors.
+H:NEO
+U:Are you a programmer?
+H:NEO 
+U:Then what are you?
+A:SERAPH
+U:I protect that which matters most.
+H:NEO
+U:What's that?
+
+
+M:Matrix 2
+A:ORACLE
+U:Well, come on, I ain't going to bite you. Come around here and let me have a look at you. Hm-
+A:ORACLE
+U:My goodness, look at you. You turned out all right, didn't you? You look good, Neo.  How do you feel?
+H:NEO
+U:I--
+A:ORACLE
+U:I know, you’re not sleeping. We'll get to that. Why don’t you come here and have a sit this time?
+H:NEO
+U:Maybe I’ll stand.
+A:ORACLE
+U:Suit yourself.
+H:NEO
+U:I felt like sitting.
+A:ORACLE
+U:I know.
+A:ORACLE
+U:So let's get the obvious stuff out of the way.
+H:NEO
+U:You're not human are you?
+A:ORACLE
+U:Tough to get any more obvious than that.
+H:NEO
+U:If I had to guess, I'd say you're a program, from the machine world. Some kind of software. So is he.
+A:ORACLE
+U:So far, so good.
+H:NEO
+U:If that's true, that could mean you are part of this system, another kind of control...
+A:ORACLE
+U:Keep going.
+H:NEO
+U:I suppose the most obvious question is, how can I trust you?
+A:ORACLE
+U:Bingo. She slaps the crumbs from her palms.
+A:ORACLE 
+U:It is a pickle, no doubt about it. Bad news is there's no way for you to really know if I'm trying to help you or not.
+A:ORACLE 
+U:So it's really up to you. You just have to make up your own damn mind to either accept what I'm going to tell you, or reject it. Candy?
+H:NEO
+U:Do you already know if I'm going to take it?
+A:ORACLE
+U:Wouldn't be much of an oracle if I didn't.
+H:NEO
+U:But if you already know, how can I make a choice?
+A:ORACLE
+U:Because you didn't come here to make the choice. You've already made it. You‘re here to try to understand why you made it. Thought you'd have figured that out by now.
+H:NEO
+U:Why are you here?
+A:ORACLE
+U:Same reason. She digs out another piece.
+A:ORACLE
+U:I love candy.
+H:NEO
+U:But why help us?
+A:ORACLE
+U:We're all here to do what we’re all here to do.
+A:ORACLE 
+U:I'm interested in one thing, Neo: the future. And believe me, I know, the only way to get there is together.in her mouth.
+H:NEO
+U:Are there other programs like you?
+A:ORACLE
+U:Well, not like me, but... Look. See those birds. At some point a program was Written to govern them. A program was written to watch over those trees, and the wind, the sunrise and sunset. There are programs running all over the place. The ones doing their job, doing what they're meant to do, are invisible. You'd never know they were even there. But the other ones, well, you hear about them all the time.
+H:NEO
+U:I've never heard of them.
+A:ORACLE
+U:Course you have. Every time you've heard someone say they saw a ghost
+or an angel. Every story you've heard about vampires, werewolves,
+or aliens is the system assimilating some program, that's
+doing something they're not supposed to be doing.
+H:NEO
+U:Programs hacking programs. Why?
+A:ORACLE
+U:They've their own reasons but usually a program chooses exile when it faces deletion.
+H:NEO
+U:Why would a program be deleted?
+A:ORACLE
+U:Maybe it breaks down. Maybe a better program is created to replace it. Happens all the time and when it does a program can either choose to hide here, or return to the Source.
+H:NEO
+U:The Machine mainframe.
+A:ORACLE
+U:Yes. Where you must go. Where the path of the One ends. You've seen it, in your dreams, haven’t you? A door made of light?
+A:ORACLE 
+U:What happens when you go through the door?
+H:NEO
+U:I see Trinity and something happens... something bad and she
+starts to fall... And then I wake up.
+A:ORACLE
+U:Do you see her die?
+H:NEO
+U:No.
+A:ORACLE
+U:You have the sight now, Neo. You are looking at the world without time.
+H:NEO
+U:Then why can't I see what happens to her?
+A:ORACLE
+U:We can never see past a choice we don't understand.
+H:NEO
+U:Are you saying I have to choose whether Trinity lives or dies?
+A:ORACLE
+U:No, you've already made the choice. Now you have to understand it.
+H:NEO
+U:No, I can't do that. I won't.
+A:ORACLE
+U:You have to.
+H:NEO
+U:Why?
+A:ORACLE
+U:Because you're the One.
+H:NEO
+U:What about the first One?
+A:ORACLE
+U:What about him?
+H:NEO
+U:Did he reach the Source?
+A:ORACLE
+U:Yes.
+H:NEO
+U:Then why didn't he end the war?
+A:ORACLE
+U:He did what he was here to do. His path is not your path, Neo. Your path, I'm afraid, is much harder.
+H:NEO
+U:Why?
+A:ORACLE
+U:Because of the choices you've made.
+H:NEO
+U:What if I can't? What happens if I fail.
+A:ORACLE
+U:Then Zion will fall..
+A:ORACLE
+U:Our time is nearly up. Listen to me, Neo. You can save Zion if you reach the Source, but to do that you will need the Key Maker.
+H:NEO
+U:The Key Maker?
+A:ORACLE
+U:Yes. Some time ago he disappeared. We did not know what happened to him until now. He is being held prisoner by a very dangerous program, one of the oldest of us, He is called the Merovingian. And he will not let him go willingly.
+H:NEO
+U:What does he want?
+A:ORACLE
+U:What do all men with power want? More power.
+
+M:Matrix 2
+A:AGENT SMITH
+U:Mister Anderson.
+A:AGENT SMITH 
+U:Did you get my package?
+H:NEO
+U:Yeah.
+A:AGENT SMITH
+U:Oh good.
+
+
+M:Matrix 2
+H:MORPHEUS
+U:You're hit.
+A:KEY MAKER
+U:It was meant to be.
+A:KEY MAKER 
+U:There is no time. Morpheus, that door will take you home.
+A:KEY MAKER 
+U:You will know which door. Hurry.
+
+M:Matrix 2
+A:OLD MAN
+U:Hello, Neo.
+H:NEO
+U:Who are you?
+A:OLD MAN
+U:I am the Architect. l created the Matrix, I’ve been waiting for you.
+
+#Skipping conversation between Neo and The Architect because it involves
+# Dual/Simultaneous Dialogue

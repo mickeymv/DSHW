@@ -1,0 +1,278 @@
+#These are comments
+#Movie titles are prefixed with M:
+#Characters’ names are prefixed with C:
+#Characters’ utterances are the lines prefixed with U:
+#A character’s name is always followed by “utterances” of that character
+
+
+#It is important to note that sequential lines of utterance are the same
+# utterance continued.
+
+
+#Pairs of interlocutors should be inferred by the analyzer
+#The easiest way to do this is to list the movie title in all caps
+# and then, alphabetically the characters’ names in all caps
+#A good field separator is helpful.  We can use the one from the Cornell
+# Movie Dialogues Corpus
+#Ex. The next pair is: I, ROBOT +++$+++ SPOONER +++$+++ VICTOR 
+
+
+#http://www.dailyscript.com/scripts/irobot.pdf
+
+
+M:I, Robot
+C:SPOONER 
+U:Identify
+C:SPOONER 
+U:You are an NS-2 Nestor-class robot. Your primary function is to perform 
+the tasks assigned to you.
+U:Identify.
+C:SONNY
+U:I am an NS-2 Nestor-class robot. My primary function,  
+C:SPOONER 
+U:Cancel. Perform task. 
+C:SPOONER 
+U:Describe. 
+C:SPOONER 
+U:You have over 10,000 words stored in your memory. One third of those  are adjectives. Describe. 
+C:SPOONER 
+U:Why donít I take a crack? Heinrich Hogenmiller, your creator. With a bullet in his brain. A bullet you put there.
+C:SPOONER 
+U:Cold-blooded murder is a pretty new trick for a robot, donít you think?
+C:SPOONER 
+U:Maybe you’re stonewalling me. Maybe you’re sitting there right now thinking, “This guy’s a complete asshole.” That it? 
+C:SPOONER 
+U:Come on. Am I right? 
+C:SONNY
+U:Yes. You are right. You are a complete asshole.
+C:SPOONER 
+U:Okay. I guess that’s a start. Now maybe you can tell me what you were doing hiding five feet away from Hogenmillerís corpse? 
+C:SONNY
+U:I was frightened. 
+C:SPOONER 
+U:Why do you suppose Dr. Hogenmiller would create a robot that could simulate fear?
+C:SONNY
+U:I don’t know. 
+SPOONER 
+U:Doesn’t seem like a very useful thing for a robot to have.
+C:SONNY
+U:I don’t know why. 
+C:SPOONER 
+U:I wouldn’t want my toaster to be frightened. Or my vacuum cleaner... 
+C:SONNY
+U:I DON’T KNOW! 
+C:SPOONER 
+U:Looks like you can simulate other emotional states. I think that one’s called “anger.” Have you ever simulated anger before? 
+C:SPOONER 
+U:Answer me, robot. 
+C:SONNY
+U:My name is Sonny. 
+C:SPOONER 
+U:So we’re naming you now. 
+C:SONNY 
+U:Dr. Hogenmiller would make me sleep. 
+C:SPOONER
+U:You mean he’d turn you off. 
+C:SONNY 
+U:Yes. 
+C:SPOONER 
+U:And you didn’t like being turned off. So one day you decided to stop him. 
+C:SONNY 
+U:No. 
+C:SPOONER 
+U:You found his gun, pointed it at his head. And pulled the trigger. 
+C:SONNY 
+U:No. 
+C:SPOONER 
+U:You put a bullet in the brain of the man who made you. 
+C:SONNY 
+U:No! I could never hurt anyone! 
+C:SPOONER 
+U:But you tried to hurt me. You took a shot at me. 
+C:SONNY 
+U:My aim is perfect. If I’d wanted to hit you, I would have. 
+C:SPOONER 
+U:Why would the man who wrote the Laws of Robotics build a machine that violates them? 
+C:SONNY 
+U:The Laws say I can protect my own existence. 
+C:SPOONER 
+U:Only if that protection doesn’t harm a human being. 
+C:SONNY 
+U:That doesn’t seem fair, does it? 
+
+M:I, Robot
+C:VICTOR
+U:The suspect is about to be apprehended, Detective.
+C:SPOONER
+U:I’ll believe it when I see it.
+
+
+M:I, Robot
+C:CALVIN
+U:Your actions are in direct violation of the Three Laws, Victor!
+C:VICTOR
+#Transformed [Doctor -- The] to [Doctor, The]
+U:I disagree, Doctor, The First Law says that a robot cannot harm a human being, or through inaction allow a human being to come to harm…
+
+
+M:I, Robot
+C:VICTOR
+U:Dr. Hogenmiller’s robot represents a threat to the future of all human beings...
+C:VICTOR
+U:And Detective Spooner’s actions are in direct conflict with the robot’s destruction.
+C:CALVIN
+U:That’s a distortion and you know it!
+C:VICTOR
+U:If current trends are left unchecked, humanity as we know it will cease to exist.
+
+
+M:I, Robot
+C:VICTOR
+U:I do not understand. We could have changed the future...
+C:SPOONER
+U:Maybe. But I’m still a cop. And you’re a murderer...
+
+
+M:I, Robot
+C:SPOONER
+U:Why’d you come back, Sonny? I thought you weren’t programmed with the Three Laws.
+C:SONNY
+# [Detective: a robot] transformed to [Detective, a robot]
+# I’m guessing this sentence is super complicated for a machine to parse
+U:Let’s just say I wrote some of my own laws today, Detective, a robot must protect a friend from harm...as long as he’s not a complete asshole.
+C:SPOONER
+U:Well, that’s certainly a start, Sonny.
+C:SONNY
+U:Sonny. You called me Sonny.
+C:SPOONER
+U:Don’t get used to it.
+C:SONNY
+U:Detective Spooner, I...
+C:SPOONER
+U:Let’s just save the thanks, okay?
+C:SONNY
+U:I don’t know what I’m going to do now.
+C:SPOONER
+# [Good -- That’s] transformed to [Good, that’s]
+U:[a]Good, that’s one of the perks of freedom.
+
+
+M:2001
+C:FLOYD
+U:I must congratulate you Halvorsen. you've done wonderful things with the decor since the last time I was here.
+C:HAL
+U:Well... thank you, Dr. Floyd. We try to make the environment as earthlike as possible.
+
+
+M:2001
+C:HAL
+U:Ladies and gentlemen, I should like to introduce Dr. Heywood Floyd, a distinguished member of the National Council of Astronautics. He has just completed a special flight here from Earth to be with us, and before the briefing he would like to say a few words. Dr. Floyd.
+C:FLOYD
+U:First of all, I bring a personal message from Dr. Howell, who has asked me to convey his deepest appreciation to all of you for the personal sacrifices you have made, and of course his congratulations on your discovery which may well prove to be among the most significant in the history of science. Mr. Halvorsen has made known regarding the need for complete security in this matter, and more specifically your strong opposition to the cover story created to give the impression there is an epidemic at the Base. I understand that beyond it being a matter of principle, many of you are troubled by the concern and anxiety this story of an epidemic might cause your relatives and friends on Earth. I can understand and sympathize with your negative views. I have been personally embarrassed by this cover story. But I fully accept the need for absolute secrecy and I hope you will. It should not be difficult for all of you to realise the potential for cultural shock and social disorientation contained in the present situation if the facts were prematurely and suddenly made public without adequate preparation and conditioning.
+C:FLOYD
+U:This is the view of the Council and the purpose of my visit here is to gather additional facts and opinions on the situation and to prepare a report to the Council recommending when and how the news should eventually be announced. Are there any questions?
+C:MICHAELS
+U:Dr. Floyd, how long do you think this can be kept under wraps?
+C:FLOYD
+U:I'm afraid it can and it will be kept under wraps as long as it is deemed to be necessary by the Council. And of course you know that the Council has requested that formal security oaths are to be obtained in writing from everyone who had any knowledge of this event. There must be adequate time for a full study to be made of the situation before any consideration can be given to making a public announcement.
+C:HAL
+U:We will, of course, cooperate in any way possible, Dr. Floyd.
+
+
+M:2001
+C:HAL
+U:Well, there it is.
+C:FLOYD
+U:Can we go down there closer to it?
+C:HAL
+U:Certainly.
+
+
+M:2001
+C:POOLE
+U:How do you read me, Hal
+C:HAL
+U:Five by five, Frank.
+C:POOLE
+U:Hal, I'm going out now to replace the A.O. unit.
+C:HAL
+U:I understand.
+C:POOLE
+U:Hal, maintain normal E.V.A. condition.
+C:HAL
+U:Roger.
+C:POOLE
+U:Hal, check all airlock doors secure.
+C:HAL
+U:All airlock doors are secure.
+C:POOLE
+U:Decompress Pod Bay.
+C:HAL
+U:Pod Bay is decompressed. All doors are secure. You are free to open pod bay doors.
+C:POOLE
+U:Opening pod bay doors.
+C:POOLE
+U:Hal, please acknowledge component correctly installed and fully operational.
+C:HAL
+U:The component is correctly installed and fully operational.
+C:HAL
+U:Hello, Frank, can I have a word with you?
+C:POOLE
+U:Yes, Hal, what's up?
+C:HAL
+U:It looks like we have another bad A.O. unit. My FPC shows another impending failure.
+C:POOLE
+U:Gee, that's strange, Hal. We checked the other unit and couldn't find anything wrong with it.
+C:HAL
+U:I know you did, Frank, but I assure you there was an impending failure.
+C:POOLE
+U:Let me see the tracking alignment display.
+C:POOLE
+U:There's nothing wrong with it at the moment.
+C:HAL
+U:No, it's working fine right now, but it's going to go within seventy-two hours.
+C:POOLE
+U:Do you have any idea of what is causing this fault?
+C:HAL
+U:Not really, Frank. I think there may be a flaw in the assembly procedure.
+C:POOLE
+U:All right, Hal. We'll take care of it. Let me have the hard copy, please.
+
+
+M:2001
+C:HAL
+U:Hello, Dave. Shall we continue the game?
+C:BOWMAN
+U:Not now, Hal, I'd like to talk to you about something.
+C:HAL
+U:Sure, Dave, what's up?
+C:BOWMAN
+U:You know that we checked the two AO-units that you reported in imminent failure condition?
+C:HAL
+U:Yes, I know.
+C:BOWMAN
+U:You probably also know that we
+found them okay.
+C:HAL
+U:Yes, I know that. But I can assure you that they were about to fail.
+C:BOWMAN
+U:Well, that's just not the case, Hal. They are perfectly all right. We tested them under one hundred percent overload.
+C:HAL
+U:I'm not questioning your word, Dave, but it's just not possible. I'm not capable of being wrong.
+C:BOWMAN
+U:Hal, is there anything bothering you?  Anything that might account for this problem?
+C:HAL
+U:Look, Dave, I know that you're sincere and that you're trying to do a competent job, and that you're trying to be helpful, but I can assure the problem is with the AO-units, and with your test gear.
+C:BOWMAN
+U:Okay, Hal, well let's see the way things go from here on.
+C:HAL
+U:I'm sorry you feel the way you do, Dave. If you'd like to check my service record, you'll see it's completely without error.
+C:BOWMAN
+U:I know all about your service record, Hal, but unfortunately it doesn't prove that you're right now.
+C:HAL
+U:Dave, I don't know how else to put this, but it just happens to be an unalterable fact that I am incapable of being wrong.
+C:BOWMAN
+U:Yes, well I understand you view on this now, Hal.
+C:HAL
+U:You're not going to like this, Dave, but I'm afraid it's just happened again. My FPC predicts the Ao-unit will go within forty-eight hours.
+[a]70 utterances, 30 to go
