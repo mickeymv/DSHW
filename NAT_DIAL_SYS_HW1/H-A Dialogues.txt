@@ -931,7 +931,7 @@ U:That you are the One.
 H:NEO
 U:You could have just asked.
 A:SERAPH
-UNo. You do not truly know someone until you fight them.
+U:No. You do not truly know someone until you fight them.
 
 M:Matrix 2
 H:NEO
