@@ -32,15 +32,16 @@ function noOfWordsInUtterance(utterance, isHuman) {
         if (aWord == null) break;
         aWord = aWord[0];
         noOfWordsInUtt++;
+        aWord = aWord.toLowerCase();
        if(isHuman) {
            if(hAllWords[aWord]) {
-            hAllWords[aWord++];
+            hAllWords[aWord] = hAllWords[aWord] + 1;
            } else {
                hAllWords[aWord] = 1;
            }
         } else {
             if(aAllWords[aWord]) {
-                    aAllWords[aWord++];
+                    aAllWords[aWord] = aAllWords[aWord] + 1;
                    } else {
                        aAllWords[aWord] = 1;
                    }
