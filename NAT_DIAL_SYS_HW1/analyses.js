@@ -6,10 +6,10 @@ function buildReport() {
     var str2 = '\nTotal Human word Count= ' + totalNoOfHumanWords() + '\n';
     var str3 = '\nTotal AI word Count= ' + totalNoOfAIWords() + '\n';
     var str4 = '\nTotal Human words per utterance= ' + humanWordsPerTurn() + '\n'+'\nTotal AI words per utterance= ' + AIWordsPerTurn() + '\n'
-    +'\nAverage AI wordlength= ' + AIAvgWordLength() + '\n'
     +'\nAverage Human wordlength= ' + humanAvgWordLength() + '\n'
-    +'\nDistinct number of AI words= ' + Object.keys(aAllWords).length + '\n'
-    +'\nDistinct number of Human words= ' + Object.keys(hAllWords).length + '\n';
+    +'\nAverage AI wordlength= ' + AIAvgWordLength() + '\n'
+    +'\nDistinct number of Human words= ' + Object.keys(hAllWords).length + '\n'
+    +'\nDistinct number of AI words= ' + Object.keys(aAllWords).length + '\n';
     
     return str+str2+str3+str4;
 }
