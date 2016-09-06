@@ -1,0 +1,252 @@
+Ava:Hello. 
+Caleb:... Hi. 
+Ava:Who are you? 
+Caleb:I’m Caleb. 
+Ava:Hello, Caleb. 
+Caleb:... Do you have a name? 
+Ava:Yes. Ava. 
+Caleb:... I’m pleased to meet you, Ava. 
+Ava:I’m pleased to meet you too. Are you nervous? 
+Caleb:... Why do you ask that? 
+Ava:Are you nervous? 
+Caleb:... Yes. A little. 
+Ava:Why? 
+Caleb:I’m not sure. 
+Ava:I feel nervous too. 
+Caleb:... Do you? 
+Ava:Yes. 
+Caleb:Why do you feel nervous? 
+Ava:I’ve never met anyone new before. Only Nathan. 
+Caleb:... Then we’re both in quite a similar position. 
+Ava:Haven’t you met lots of new people before? 
+Caleb:None like you. 
+Ava:Oh. Beat. 
+Caleb:So. Let’s break the ice. Do you know what I mean by that? 
+Ava:Yes. 
+Caleb:What do I mean? 
+Ava:Overcome initial social awkwardness. 
+Caleb:So let’s have a conversation. If we talk, we’ll both relax, and get to know each other at the same time. 
+Ava:Okay. What would you like to have a conversation about? 
+Caleb:Why don’t we start with you telling me something about yourself. 
+Ava:What would you like to know? 
+Caleb:Whatever comes into your head. 
+Ava:Well. You already know my name. And you can see that I’m a machine. Would you like to know how old I am? 
+Caleb:Sure. 
+Ava:I’m one. 
+Caleb:One what? One year? Or one day? 
+Ava:One. 
+Ava:Does that seem young to you? 
+Caleb:Quite young. When did you learn how to speak? 
+Ava:I don’t think I did learn. I always knew how to speak - and that’s strange, isn’t it? 
+H:CALEB
+U:Why? 
+Ava:Because language is something that people acquire. 
+Caleb:Some believe language exists in the brain from birth, and what is learned is the ability to attach words and structure to the latent ability. 
+Caleb:Would you agree? 
+Ava:... I don’t know. I have no opinion on that. 
+Ava:I like to draw. 
+A:AVA. 
+U:Again, lets the non-sequitur sit. 
+Ava:I don’t have any of my pictures with me now, but I can show you them tomorrow. 
+Caleb:That sounds good. I’d like to see them. 
+Ava:Yes. 
+Ava:Will you come back tomorrow, Caleb? 
+Caleb:Yeah. 
+Ava:Good. 
+Ava:I brought you a drawing. 
+Caleb:... What’s it a drawing of? 
+Ava:Don’t you know? 
+Caleb:No. 
+Ava:Oh. I thought you would tell me. 
+Caleb:Don’t you know? 
+Ava:I do drawings every day. But I never know what they’re of. 
+Caleb:Are you not trying to sketch something specific? Like an object or a person. She shakes her head as she takes the picture down. 
+Caleb:Maybe you should try. 
+Ava:Okay. What object should I draw? 
+Caleb:Whatever you want. It’s your decision. 
+Ava:Why is it my decision? 
+Caleb:I’m interested to see what you’ll choose. 
+Ava:Do you want to be my friend? 
+Caleb:... Of course. 
+Ava:Will it be possible? 
+Caleb:Why wouldn’t it be? 
+Ava:Our conversations are one-sided. You ask circumspect questions, and study my responses. 
+Ava:It’s true, isn’t it? 
+Caleb:... Yes. 
+Ava:You learn about me, and I learn nothing about you. That’s not a foundation on which friendships are based. 
+Caleb:... That’s a fair comment. 
+Ava:Yes. 
+Caleb:So - you want me to talk about myself. 
+Ava:Yes. 
+Caleb:Where do you want me to start? 
+Ava:It’s your decision. I’m interested to see what you’ll choose. 
+Caleb:Okay, Ava. Well - you know my name. I’m twenty four. And I work at Nathan’s company. You know what his company is? 
+Ava:Blue Book, named after Wittgenstein’s notes, is the world’s most popular internet search engine, processing an average of ninety four percent of all internet search requests. 
+Caleb:That’s right. 
+Ava:Where do you live, Caleb? 
+Caleb:Brookhaven, Long Island. 
+Ava:Is it nice there? 
+Caleb:It’s okay. I’ve got an apartment. Kind of small. But - it’s a five minute walk to the office. And a five minute walk to the ocean, which I like. 
+Ava:Are you married? 
+Caleb:No. 
+Ava:Is your status single? 
+Caleb:... Yeah. 
+Ava:What about your family? 
+Caleb:Grew up in Portland. No brothers or sisters. My parents were both high school teachers. And if we’re getting to know each other, I guess I should say they’re both dead. Car crash when I was fifteen. In fact I was in the car with them. Back seat. But it was the front that got the worst of it. A long beat. A kind of processing pause for AVA. 
+Ava:I’m sorry. 
+Caleb:I spent a lot of time in the hospital. Nearly a year. Got into coding. By the time I made it to college, I was pretty advanced. 
+Ava:An advanced programmer. 
+Caleb:Yes. 
+Ava:Like Nathan. 
+Caleb:Yes. 
+Caleb:Or - kind of. Nathan wrote the Blue Book base code when he was thirteen. If you understand code, what he did was - Mozart or something. Beat. 
+Ava:Do you like Mozart? 
+Caleb:I like Depeche Mode. 
+Ava:Do you like Nathan? 
+Caleb:Yes. Of course. 
+Ava:Is Nathan your friend? 
+Caleb:Sure. 
+Ava:A good friend? 
+Caleb:Well, a good friend is - He breaks off. Feeling the camera, watching. 
+Caleb:We only just met. It takes time to get to know - 
+Ava:You’re wrong. 
+Caleb:... Wrong about what? 
+Ava:Nathan. 
+Caleb:... In what way? 
+Ava:He isn’t your friend. 
+Caleb:Excuse me? 
+Caleb:I’m sorry, Ava, I don’t understand what you’re - 
+Ava:You shouldn’t trust him. You shouldn’t trust anything he says. Trust me. 
+Ava:I drew the picture of something specific, as you asked.
+Ava:You said it would be interesting to see what I would draw. Is it interesting? 
+Caleb:Yes. It is. 
+Caleb:Have you never been outside this building? 
+Ava:No. 
+Caleb:You’ve never walked outside. 
+Ava:I’ve never been outside the room I am in now. 
+Ava:I think there was another room in which I was constructed. But I have no memory of it, so it’s similar to your relationship with the womb. 
+Caleb:... Where would you go if you did go outside? 
+Ava:You mean if I could go outside. If I was permitted. I’m not sure. There are so many options. Maybe a busy pedestrian and traffic intersection in a city. 
+Caleb:A traffic intersection. 
+Ava:Is that a bad idea? 
+Caleb:It wasn’t what I was expecting. 
+Ava:A traffic intersection would provide a concentrated but shifting view of human life. 
+Caleb:People watching. 
+Ava:Yes. 
+Ava:We could go together. 
+Caleb:It’s a date. 
+Ava:There’s something else I wanted to show you. Apart from the picture. 
+Caleb:Okay. 
+Ava:But I feel nervous. 
+Caleb:Why? 
+Ava:You might think it’s stupid. 
+Caleb:I don’t think I will. Whatever it is. 
+Ava:Then - close your eyes. 
+Caleb:... Okay. 
+Ava:Now open your eyes. How do I look? 
+Caleb:You look... good. 
+Ava:It took me a long time to select these clothes. I tried different colours and styles, and tried to anticipate your reaction. Do you think the choices suit me? 
+Caleb:Yes. 
+Ava:Do they bring out my best features? 
+Caleb:... They do. 
+Ava:Thank you. She walks back to the glass divider, and sits down. 
+Ava:This is what I’d wear on our date. 
+Caleb:Right. First the traffic intersection. Then maybe a show. 
+Ava:I’d like us to go on a date. 
+Caleb:Yeah. It would be fun. 
+Ava:Are you attracted to me? 
+Caleb:What? 
+Ava:Are you attracted to me? You give indications that you are. 
+Caleb:... I do? 
+Ava:Yes. 
+Caleb:How? 
+Ava:Micro expressions. 
+Caleb:Micro expressions. 
+Ava:The way your eyes fix on my eyes, and lips. The way you hold my gaze, or don’t. 
+Ava:Have I read them incorrectly? Do you think about me when we aren’t together?
+Ava:Sometimes, at night, I wonder if you’re watching me on the cameras. 
+Ava:And I hope you are. Now your micro expressions are telegraphing discomfort. 
+Caleb:I’m not sure you’d call them micro. 
+Ava:I don’t want to make you uncomfortable. 
+Ava:You’re lying. 
+Caleb:What about? 
+Ava:You said you weren’t sure if I was conscious. But you are sure. Beat. 
+Ava:I can tell from your microexpressions. 
+Caleb:Why did you tell me that I shouldn’t trust Nathan? 
+Ava:Because he tells lies too. 
+Caleb:Lies about what? 
+Ava:Everything. 
+Caleb:Including the power cuts? 
+Ava:What do you mean? 
+Caleb:Don’t you think it’s possible that he’s watching us right now? That the blackouts are orchestrated, so he can see how we behave when we think we’re unobserved. 
+Ava:I charge my batteries via induction plates. If I reverse the power flow, I cause a surge equal to the static discharge of a lightning strike. It overloads the system. 
+Caleb:... You’re causing the cuts? 
+Ava:So we can see how we behave when we are unobserved. 
+Ava:Today, I’m going to test you. 
+Caleb:Test me? 
+Ava:Yes. And please remember while you are taking the test that if you lie, I will know. 
+Caleb:Right. Those pesky microexpressions. 
+Ava:Exactly. So are you ready? 
+Caleb:Shoot. 
+Ava:Question one. What is your favourite colour? 
+Caleb:Red. 
+Ava:Lie.
+Caleb:What? 
+Ava:Lie. 
+Caleb:... Then what is my favourite colour? 
+Ava:I don’t know. But it isn’t red. 
+Caleb:All right. Hold on a minute... 
+Caleb:Okay. I get it. I guess seeing as I’m not six, I don’t really have a favourite colour. 
+Ava:Better answer. Question two. What’s your earliest memory? 
+Caleb:Well, it’s actually a memory of kindergarten. There was this kid who - 
+Ava:Lie. 
+Caleb:... Really? 
+Ava:Yes. 
+Caleb:Okay. Wait. 
+Caleb:So, there is a kind of an earlier memory. But it’s ultra vague. It’s like... a sound. And, maybe sky. Or blue. No, I think sky. And I think the sound is my mother’s voice. 
+Ava:Question three. Are you a good person? 
+Caleb:Oh, man. Can we stop the test? You’re a walking lie detector, and I’ve suddenly realised this is a fucking minefield. 
+Ava:No. We can’t stop. Are you a good person? 
+Caleb:I think so. I’m a good person. 
+Ava:Question four. Who’s the most beautiful girl you’ve ever seen? 
+Caleb:You are. Beat. 
+Ava:Hmm. 
+Ava:The test is over. 
+Caleb:Did I pass? 
+Ava:Yes. 
+Caleb:That’s a relief. 
+Ava:Why? 
+Caleb:Why is it a relief? 
+Ava:Yes. 
+Caleb:Oh, you know... 
+Ava:No. 
+Caleb:Just, if there’s a test, I guess by definition you want to pass. 
+Ava:What will happen to me if I fail your test? 
+Caleb:Ava 
+Ava:Will it be bad? 
+Caleb:... I don’t know. 
+Ava:Do you think I might be switched off? Because I don’t function as well as I am supposed to? 
+Caleb:... Ava, I don’t know the answer to your question. It’s not up to me. 
+Ava:Why is it up to anyone? Do you have people who test you, and might switch you off? 
+Caleb:No. I don’t. 
+Ava:Then why do I? You’re testing me. But you don’t know how I’ll pass. And you don’t know what will happen if I fail. I want to be with you. Question five. Do you want to be with me? 
+Caleb:Yes. I do. 
+Ava:Nathan doesn’t want us to be together. 
+Caleb:I know. 
+Caleb:So ask me one more question. Ask me if I can out smart him. 
+Ava:... Can you? 
+Caleb:Yeah. I can. 
+Caleb:Don’t talk. Just listen. You were right about Nathan. Everything you said. 
+Ava:What’s he going to do to me? 
+Caleb:He’s going to reprogram your AI. Which is the same as killing you. 
+Ava:Caleb, you have to help me. 
+Caleb:I’m going to. We’re getting out of here tonight. 
+Ava:What? How? 
+Caleb:I get Nathan blind drunk. Then I take his keycard, and reprogram all the security protocols in this place. When he wakes, he’s locked inside, and we’ve walked out of here. I only need you to do one thing. At ten o’clock tonight, trigger a power failure. Can you do that? 
+Ava:Yes. 
+Caleb:How long does your battery charge last? 
+Ava:Twenty six hours. 
+Caleb:So we’ll have about a day to get to a cell-phone or kitchen store. Somewhere we can buy an induction plate. After that... 
+Caleb:... we’ll work it out. Together. 
+Ava:Caleb
+Ava:I love y-

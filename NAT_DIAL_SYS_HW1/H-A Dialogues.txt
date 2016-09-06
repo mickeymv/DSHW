@@ -276,6 +276,8 @@ U:I sent two units. They're bringing her down now.
 A:AGENT SMITH
 U:No, Lieutenant, your men are already dead.
 
+
+###################################
 #Note: Two AIs conversing
 M:The Matrix
 A:AGENT JONES
@@ -294,6 +296,8 @@ A:AGENT SMITH
 U:We'll need a search running.
 A:AGENT JONES
 U:It's already begun.
+
+###################################
 
 M:The Matrix
 A:AGENT SMITH
@@ -329,6 +333,8 @@ U:I told you I don't know them. But I can give you the man who does.
 A:AGENT SMITH 
 U:Morpheus.
 
+
+###################################
 #Note: Dialogue between two AIs
 M:The Matrix
 A:AGENT SMITH 
@@ -343,6 +349,7 @@ A:AGENT JONES
 U:Order the strike. 
 A:AGENT SMITH 
 U:They're not out yet.
+###################################
 
 M:The Matrix
 A:AGENT SMITH 
