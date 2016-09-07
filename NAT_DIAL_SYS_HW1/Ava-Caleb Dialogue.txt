@@ -38,15 +38,13 @@ Ava:One.
 Ava:Does that seem young to you? 
 Caleb:Quite young. When did you learn how to speak? 
 Ava:I don’t think I did learn. I always knew how to speak - and that’s strange, isn’t it? 
-H:CALEB
-U:Why? 
+Caleb:Why? 
 Ava:Because language is something that people acquire. 
 Caleb:Some believe language exists in the brain from birth, and what is learned is the ability to attach words and structure to the latent ability. 
 Caleb:Would you agree? 
 Ava:... I don’t know. I have no opinion on that. 
 Ava:I like to draw. 
-A:AVA. 
-U:Again, lets the non-sequitur sit. 
+Ava:Again, lets the non-sequitur sit. 
 Ava:I don’t have any of my pictures with me now, but I can show you them tomorrow. 
 Caleb:That sounds good. I’d like to see them. 
 Ava:Yes. 
